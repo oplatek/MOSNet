@@ -1,0 +1,9 @@
+env/
+data/mos_list.txt
+data/submit/
+data/vcc2018_mos.csv
+output/
+data/wav/
+data/bin/
+data/__MACOSX/
+data/vcc2018_listening_test_scores/

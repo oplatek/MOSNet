@@ -1,0 +1,18 @@
+# create local environment using 
+# conda env create --prefix ./env
+name: MOSNet
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - tensorflow-gpu=2.6.2
+  - pip:
+    # - tensorflow-gpu==2.6.2
+    # - tensorflow-gpu==2.0.0-beta1
+    - tqdm
+    - scipy
+    - pandas
+    - matplotlib
+    - librosa
